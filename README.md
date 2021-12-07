@@ -3,7 +3,7 @@ a bi-directional streamlit components with pyecharts plots
 
  return event value from js-side to python-side。if no events designed, just display a chart.
 
-
+![example](https://github.com/brightxml/st_echarts_events/blob/e7aec2a2c43103cd96f007caac1395748ae4afff/images/example.gif)
 ### Installation
 
 ```python
@@ -44,6 +44,7 @@ params=['name','value','data']
 status,return_data = st_echarts_events(chart=chart,events=events,params=params)    
 st.markdown("Return data : %s " % return_data)
 ```
+
 
 if you want test the package, deploy environment like this:[streamlit template](https://github.com/streamlit/component-template)
 
